@@ -1,11 +1,11 @@
 <?php
 // Replace <Subscription Key> with a valid subscription key.
-$predictionkey = '7e65d5c235fc4383892d4b65091953e5';
+$predictionkey = 'ff4389b6b23e455c842c0a0556a2bd0b';
 
 // You must use the same location in your REST call as you used to obtain
 // your subscription keys. For example, if you obtained your subscription keys
 // from westus, replace "westcentralus" in the URL below with "westus".
-$uriBase = 'https://impacthackathon.cognitiveservices.azure.com/customvision/v3.0/Prediction/ba3e7edf-5e41-4c40-a0db-d82e34efe1fa/classify/iterations/Car%20Accident%20-%20Iteration%208/image';
+$uriBase = 'https://impacthackathon.cognitiveservices.azure.com/customvision/v3.0/Prediction/ba3e7edf-5e41-4c40-a0db-d82e34efe1fa/classify/iterations/QSee/image';
 
 $imageUrl = 'predictions/prediction.jpg';
 

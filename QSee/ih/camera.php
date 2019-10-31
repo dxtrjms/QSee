@@ -181,7 +181,6 @@ if(isset($_POST['submit']))
 								alert(data);
 
 								for (var counter = 0; counter < 5; counter++) {
-									document.getElementById('probability').innerHTML = payload['predictions'][counter]['probability'];
                   if (payload['predictions'][counter]['tagName'] == 'crash') {
                     document.getElementById('probability').innerHTML = payload['predictions'][counter]['probability'];
                     if (payload['predictions'][counter]['probability'] > 0.70) {
