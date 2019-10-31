@@ -1,0 +1,122 @@
+.btnapprove {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #0F9B00;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  /*margin: 5px;*/
+}
+
+.btnapprove span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btnapprove span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btnapprove:hover span {
+  padding-right: 25px;
+}
+
+.btnapprove:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.btnclose {
+  float: left;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #C40C00;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  /*margin: 5px;*/
+}
+
+.btnclose span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btnclose span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btnclose:hover span {
+  padding-right: 25px;
+}
+
+.btnclose:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+.btnsend {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #0040DB;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 100;
+  transition: all 0.5s;
+  cursor: pointer;
+  /*margin: 5px;*/
+}
+
+.btnsend span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btnsend span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btnsend:hover span {
+  padding-right: 25px;
+}
+
+.btnsend:hover span:after {
+  opacity: 1;
+  right: 0;
+}

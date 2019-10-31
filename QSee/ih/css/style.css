@@ -1,0 +1,141 @@
+.yourTextInput{
+resize:both;
+}
+
+.bodesign{
+	background-color: #00AFBF;
+}
+
+.bodesign1{
+	background-color: #8C8D8F;
+}
+
+.margtop{
+	margin-top: 1em;
+}
+
+.margbot{
+	margin-bottom: 1em;
+}
+
+.navbar{
+	background-color: #0F1A45;
+}
+
+
+
+textarea {
+  /* margin:0px 0px; this is redundant anyways since its specified below*/
+  padding-top:10px;
+  padding-bottom:25px; /* increased! */
+  /* height:16px; */
+  /* line-height:16px; */
+  width:100%; /* changed from 96 to 100% */
+  display:block;
+  /* margin:0px auto; not needed since i have width 100% now */
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.btn {
+ background-color: #FF9200; 
+ border: none; 
+ padding: 0.8em 2em; 
+ color: #fff; 
+ font-size: 1em; 
+ margin-top: 1em;
+ border-radius: 30px;
+
+}
+
+
+.btngr{
+  border: none;
+  /*margin: 20px;*/
+  padding: 6px;
+  width: 90px;
+  font-family: "montserrat",sans-serif;
+  text-transform: uppercase;
+  /*border-radius: 15px;*/
+  cursor: pointer;
+  color: #fff;
+  background-size: 200%;
+  transition: 0.6s;
+}
+
+.btngr1{
+  background-image: linear-gradient(to left,#FFC312,#EE5A24,#FFC312);
+}
+
+.btngr2{
+  background-image: linear-gradient(to left,#C4E538,#009432,#C4E538);
+}
+
+.btngr3{
+  background-image: linear-gradient(to left,#12CBC4,#0652DD,#12CBC4);
+}
+
+.btngr4{
+  background-image: linear-gradient(to left,#FDA7DF,#9980FA,#FDA7DF);
+}
+
+.btngr:hover{
+  background-position: right;
+}
